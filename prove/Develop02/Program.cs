@@ -27,6 +27,43 @@ namespace dj
             {
                 entry.Display();
             }
+
+            int choice;
+ 
+        do
+        {
+            Console.WriteLine("Please select one of the following choices:");
+            Console.WriteLine("1. Write");
+            Console.WriteLine("2. Display");
+            Console.WriteLine("3. Load");
+            Console.WriteLine("4. Save");
+            Console.WriteLine("5. Quit");
+            Console.Write("What would you like to do? ");
+ 
+            choice = int.Parse(Console.ReadLine());
+ 
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine("Write option selected.");
+                    break;
+                case 2:
+                    Console.WriteLine("Display option selected.");
+                    break;
+                case 3:
+                    Console.WriteLine("Load option selected.");
+                    break;
+                case 4:
+                    Console.WriteLine("Save option selected.");
+                    break;
+                case 5:
+                    Console.WriteLine("Quitting...");
+                    break;
+                default:
+                    Console.WriteLine("Invalid choice. Please try again.");
+                    break;
+            }
+        } while (choice != 5);
             
             
             
