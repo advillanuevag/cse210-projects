@@ -1,7 +1,7 @@
 using System;
 public class Resume
 {
-  public string _name;
+  public string _name;//Act
   public List<Job> _jobs = new List<Job>();
 
   public void DisplayResumeDetails()

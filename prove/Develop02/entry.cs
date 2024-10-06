@@ -7,7 +7,7 @@ public class Entry
     public void Display()
     {
         Console.WriteLine($" Date: {_date} Prompt: {_promptText} Journey Entry: {_entryText}");
-
+        //Act
         
     }
 

@@ -20,7 +20,7 @@ class Program
 
         //fraction1.SetBottom(8);
         // Console.WriteLine($" The First Fraction is: {fraction1.GetBottom}");
-
+//Act
 
     }
 }

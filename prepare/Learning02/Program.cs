@@ -22,7 +22,7 @@ class Program
         job2._jobTitle = "Planning ITO";
         job2._company = "Suringen SpA";
         job2._startYear = 2022;
-        job2._endYear = 2023;
+        job2._endYear = 2023;//Act
 
         //Creat an instance of the class Resume, and object named myResume:
         Resume myResume = new Resume();

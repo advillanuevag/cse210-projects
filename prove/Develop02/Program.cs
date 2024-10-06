@@ -23,7 +23,7 @@ namespace dj
             myList.Add(newEntry2);
             
             // Optionally, you can loop through the list and display entries
-            foreach (var entry in myList)
+            foreach (var entry in myList)//Act
             {
                 entry.Display();
             }

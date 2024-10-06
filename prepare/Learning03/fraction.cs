@@ -2,7 +2,7 @@ using System.Diagnostics;
 
 public class Fraction
 {
-    private int _top;
+    private int _top;//Act
     private int _bottom;
 
     
