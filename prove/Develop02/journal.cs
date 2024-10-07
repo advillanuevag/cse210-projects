@@ -15,6 +15,11 @@ public class Journal
     }
     public void DisplayAll()
     {
+        foreach (var entry in _entries)//Act
+            {
+                entry.Display();
+            }
+        //Console.WriteLine($"This goes Option 4 Code when ready... ");
 
     }
     public void saveToFile(string file)

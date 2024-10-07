@@ -8,6 +8,7 @@ namespace dj
         static void Main(string[] args)
         {
 
+            Journal journal = new Journal();
             Entry newEntry = new Entry();
             newEntry._date ="05/10/2024";
             newEntry._entryText ="I want to be happy today.";
@@ -48,6 +49,7 @@ namespace dj
                     Console.WriteLine("Write option selected.");
                     break;
                 case 2:
+                    journal.DisplayAll();
                     Console.WriteLine("Display option selected.");
                     break;
                 case 3:
